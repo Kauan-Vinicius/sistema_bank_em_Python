@@ -1,10 +1,3 @@
-# o sistema deve ter 3 operações: depósito, saque e extrato.
-# deve ser possivél depositar valores positivos para a conta bancária 
-# os depósitos devem ser colocados em uma variavél e exibidos na variavél extrato
-# os depósitos devem ser colocados em uma variável e exibidos na variável extrato
-# limite 3 saque diário no máximo de 500$ por saque
-# a variável extrato deve listar todos os depósitos e saques realizados na conta. No fim da lista deve ser exibido o saldo atual.
-# Os valores devem ser exibidos utilizando o formato R$ xxx.xx
 menu = '''
 ----------------Olá cliente, seja bem-vindo----------------------
 --------------Por favor, selecione a opção desejada--------------
@@ -19,7 +12,7 @@ extrato = " "
 numero_saques = 0
 saque_diario = 3
 
-while True: # Adicionei uma estrutura de repetição, para que o código rode quantas vezes o usuário desejar.
+while True:
     opcao = input(menu)
     if (opcao.upper()) == "D":
         dinheiro = float(input("Por favor, digite o valor que deseja depositar em sua conta: "))
@@ -27,7 +20,7 @@ while True: # Adicionei uma estrutura de repetição, para que o código rode qu
         if dinheiro > 0:
             saldo += dinheiro
             extrato += f"Depósito no valor de R$ {dinheiro:.2f}\n"
-            # A variável saldo que possui um valor igual a 0 é somada com o valor depositado do algoritmo dinheiro.
+            
         else:
             print("Operação não concluída!! Valor informado incorreto.")
             
