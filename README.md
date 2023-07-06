@@ -30,3 +30,6 @@ Essa operação deve listar todos os depósitos e saques realizados na conta.
 No fim da listagem deve ser exibido o saldo atual da conta. Se o extrato estiver em branco, exibir a mensagem: Não foram realizadas movimentações.
 Os valores devem ser exibidos utilizando o formato R$ xxx.XX, exemplo:
 1500.45 = R$ 1500.45
+
+![Alt text] (./Deposito_Saque)
+
