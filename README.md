@@ -47,9 +47,10 @@ Após o usuário desejar sair da interface do banco utilizando a tecla Q, recebe
 
 ### Operações não realizadas
 
-Na imagem abaixo, caso o usuário tente por uma opção não mostrada no menu inicial
+Na imagem abaixo, caso o usuário tente fazer mais da quantidade de saques diários possíveis naquele dia, o sistema envia uma mensagem de operação não concluída.
+Caso o usuário tente por uma opção não mostrada no menu inicial , o sistema envia uma mensagem de opção inválida.
 
-
+![Alt  text](./Erro2.png "Operações não realizadas")
 
 Na imagem abaixo, caso o usuário tente colocar um valor negativo em seu saldo, o sistema envia uma mensagem de operação não concluída.
 Caso o usuário tente colocar um valor maior que o limite por saque, outra mensagem de operação não comcluída é enviado pelo sistema.
