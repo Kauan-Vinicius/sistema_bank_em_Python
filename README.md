@@ -53,7 +53,7 @@ Caso o usuário tente por uma opção não mostrada no menu inicial , o sistema 
 ![Alt  text](./Erro2.png "Operações não realizadas")
 
 Na imagem abaixo, caso o usuário tente colocar um valor negativo em seu saldo, o sistema envia uma mensagem de operação não concluída.
-Caso o usuário tente colocar um valor maior que o limite por saque, outra mensagem de operação não comcluída é enviado pelo sistema.
+Caso o usuário tente colocar um valor maior que o limite por saque, outra mensagem de operação não concluída é enviado pelo sistema.
 Se o usuário tentar colocar um valor maior que seu saldo bancário, o sistema pede que o mesmo informe um valor menor.
 
 ![Alt text](./Erro1.png "Operações não realizadas")
