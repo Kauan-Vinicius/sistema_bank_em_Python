@@ -31,5 +31,18 @@ No fim da listagem deve ser exibido o saldo atual da conta. Se o extrato estiver
 Os valores devem ser exibidos utilizando o formato R$ xxx.XX, exemplo:
 1500.45 = R$ 1500.45
 
-![Alt text] (./Deposito_Saque)
+### Tela funcional de depósito e saque
+
+Na imagem abaixo, vemos que o usuário deposita um valor de 1200. E, logo em seguida, realiza três saques no valor de 500, 500 e 100, respectivamente.
+
+![Alt text](./Deposito_saque.png "Tela funcional de depósito e saque")
+
+### Tela funcional de extrato bancário
+
+Na imagem abaixo, vemos que o usuário solicita o extrato bancário dos depósitos e saques realizados durante aquele dia.
+No extrato é possível ver o seu saldo após os depósitos e saques feitos, quantos saques diários foram feitos, e quantos saques ainda restam para aquele dia.
+Após o usuário desejar sair da interface do banco utilizando a tecla Q, recebe uma mensagem final de agradecimento.
+
+![Alt text](./extrato.png "Tela funcional de extrato bancário")
+
 
